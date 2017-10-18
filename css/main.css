@@ -1,0 +1,27 @@
+*{/*utilizamos un selector universal para que afecte a todos por igual*/
+  box-sizing: border-box;/*sirve para que  respete el ancho de los elementos bloque*/
+  margin-bottom:10px; /*sirve para dar margen de 10 pixeles al elemento bloque div en la parte superior*/
+  margin-left:7px; /*margen de 7 pixeles en la parte izquierda del elemento bloque div*/
+  text-indent: 10px;/*sirve para crear un espacio de 10 pixeles entre el margen y el texto*/
+  height: 150px; /*le ponemos una altura de 150 pixeles */
+  width:300px;/*le ponemos un ancho de 300 pixeles para el elemnto de bloque div*/
+}
+
+#bloque1{/*selector de tipo id(único )*/
+
+  background-color: #FFC300;/*le ponemos un fondo de color del  codigo amarillo  */
+  padding-top: 6px;/*ponemos un relleno en la parte superior de 6 pixeles  */
+}
+
+#bloque2{
+  background-color:#2E2D2C;/*poner un fondo de color del codigo griss*/
+  color:white;/*indicamos un color blanco para el texto */
+  padding-top: 6px;/*indicamos un relleno de lado superior de 6 pixeles */
+
+}
+
+#bloque3{
+  background-color:#FFC300;/*fondo de color*/
+  padding-top: 6px;/*relleno en la parte superior de 6 pixeles*/
+
+}
